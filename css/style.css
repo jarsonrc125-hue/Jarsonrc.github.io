@@ -1,1 +1,185 @@
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#ffffff;
+    color:#222;
+    line-height:1.7;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+header{
+    background:#fff;
+    border-bottom:1px solid #e5e5e5;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:22px 0;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#111;
+}
+
+nav{
+    display:flex;
+    gap:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#444;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#000;
+}
+
+.hero{
+    padding:90px 0;
+}
+
+.hero-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.welcome{
+    color:#666;
+    font-size:18px;
+    margin-bottom:15px;
+}
+
+.hero h1{
+    font-size:56px;
+    line-height:1.15;
+    color:#111;
+    margin-bottom:15px;
+}
+
+.hero h2{
+    font-size:28px;
+    color:#666;
+    font-weight:400;
+    margin-bottom:30px;
+}
+
+.intro{
+    font-size:20px;
+    color:#444;
+    margin-bottom:40px;
+    max-width:650px;
+}
+
+.buttons{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.btn,
+.btn-outline{
+    text-decoration:none;
+    padding:15px 32px;
+    border-radius:6px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn{
+    background:#111;
+    color:#fff;
+}
+
+.btn:hover{
+    background:#333;
+}
+
+.btn-outline{
+    border:2px solid #111;
+    color:#111;
+}
+
+.btn-outline:hover{
+    background:#111;
+    color:#fff;
+}
+
+.hero-image{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.hero-image img{
+    width:400px;
+    height:400px;
+    object-fit:cover;
+    border-radius:12px;
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+}
+
+@media(max-width:900px){
+
+.hero-container{
+    flex-direction:column-reverse;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:40px;
+}
+
+.hero h2{
+    font-size:22px;
+}
+
+.intro{
+    margin:auto;
+    margin-bottom:35px;
+}
+
+.buttons{
+    justify-content:center;
+}
+
+nav{
+    display:none;
+}
+
+.hero-image img{
+    width:280px;
+    height:280px;
+}
+
+}
