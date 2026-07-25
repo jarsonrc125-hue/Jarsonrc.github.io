@@ -183,3 +183,34 @@ nav{
 }
 
 }
+.about{
+
+padding:100px 0;
+
+background:#f8f9fb;
+
+}
+
+.about h2{
+
+font-size:42px;
+
+margin-bottom:35px;
+
+color:#111;
+
+}
+
+.about p{
+
+font-size:19px;
+
+line-height:1.9;
+
+color:#444;
+
+margin-bottom:25px;
+
+max-width:900px;
+
+}
