@@ -214,3 +214,118 @@ margin-bottom:25px;
 max-width:900px;
 
 }
+
+/* ===========================
+   ABOUT
+=========================== */
+
+.about{
+    padding:100px 0;
+    background:#f8f9fb;
+}
+
+.about h2,
+.companies h2,
+.timeline h2,
+.projects h2,
+.contact h2{
+    font-size:42px;
+    margin-bottom:35px;
+    color:#111;
+}
+
+.about p,
+.projects p,
+.contact p{
+    font-size:19px;
+    line-height:1.9;
+    color:#444;
+    margin-bottom:25px;
+}
+
+/* ===========================
+   COMPANIES
+=========================== */
+
+.companies{
+    padding:100px 0;
+    background:#fff;
+}
+
+.company-card{
+    background:#f8f9fb;
+    border-radius:12px;
+    padding:35px;
+    margin-bottom:30px;
+    box-shadow:0 8px 20px rgba(0,0,0,.05);
+}
+
+.company-card h3{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.company-card p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* ===========================
+   TIMELINE
+=========================== */
+
+.timeline{
+    padding:100px 0;
+    background:#f8f9fb;
+}
+
+.timeline-item{
+    border-left:4px solid #111;
+    padding-left:25px;
+    margin-bottom:45px;
+}
+
+.timeline-item h3{
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+.timeline-item p{
+    font-size:18px;
+    line-height:1.8;
+    color:#444;
+}
+
+/* ===========================
+   PROJECTS
+=========================== */
+
+.projects{
+    padding:100px 0;
+    background:#fff;
+}
+
+/* ===========================
+   CONTACT
+=========================== */
+
+.contact{
+    padding:100px 0;
+    background:#f8f9fb;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:35px 0;
+}
+
+footer p{
+    margin:0;
+    font-size:16px;
+}
